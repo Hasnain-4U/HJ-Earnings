@@ -1,0 +1,22 @@
+HJ EARNINGS V6 - START HERE
+
+1. XAMPP mein MySQL Start karo.
+2. Agar database pehle se bana hua hai to schema dobara import karne ki zaroorat nahi.
+3. backend/.env mein apni working MySQL settings rakho.
+4. backend folder mein CMD:
+   npm install
+5. Admin account banane ke liye (sirf pehli dafa):
+   (optional) npm run admin
+6. Server:
+   npm start
+7. Browser:
+   http://localhost:5000
+8. Purani cache ho to Ctrl + F5.
+
+Admin:
+- .env mein ADMIN_EMAIL aur ADMIN_PASSWORD set karo.
+- (optional) Admin credentials .env mein already set hain.
+- Admin email/password se login karo.
+- Dashboard par Admin link ya http://localhost:5000/admin.html kholo.
+
+V6: Daily bonus 24 hours, user-facing conversion text removed, referral sharing improved, admin dashboard improved.
