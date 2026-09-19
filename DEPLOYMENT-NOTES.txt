@@ -1,0 +1,8 @@
+HJ Earnings - Deployment Notes
+
+1. Do NOT upload a real .env file to GitHub.
+2. Set all production variables in the hosting provider's Environment Variables.
+3. Set FRONTEND_URL to the deployed frontend URL after deployment.
+4. Set DB_HOST/DB_PORT/DB_USER/DB_PASSWORD/DB_NAME to the online MySQL database.
+5. Use a new strong JWT_SECRET and a new strong ADMIN_PASSWORD for production.
+6. The app's backend/frontend URL should be configured through environment variables where supported.
